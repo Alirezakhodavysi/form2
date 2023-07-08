@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(39, 33, 33);
+}
+table{
+
+    border: 1px black ;
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(80, 80, 73);
+    width: 700px;
+    height: 550px;
+    margin-left: 300px;
+    transition: ease all ;
+    
+
+    
+    
+}
+tr{
+    
+    border-radius: 3px;
+    border: 1px rgb(48, 46, 42);
+    border-style: solid;
+    color: rgb(80, 80, 73);
+    transition: ease all ;
+    
+    
+
+}
+td{
+    
+    border-radius: 3px;
+    border: 1px rgb(48, 46, 42);
+    border-style: solid;
+    color: rgb(80, 80, 73);
+    transition: ease all ;
+    
+}
+caption{
+    color: rgb(80, 80, 73);
+    transition: ease all ;
+    
+}
+button{
+    margin-right: 30px;
+    
+    color: #6e6565;
+    background-color: black;
+    border-radius: 8px;
+    float: right;
+    display: inline;
+    transition: ease all ;
+    
+}
+i.fa{
+     padding-left: 50px;
+     padding-top: 100px;
+     display: inline;
+     color: aliceblue;
+
+     
+transition: ease all ;
+}
+.light{
+    background-color:aliceblue;
+
+}
+.light table td tr{
+    color: black;
+    border-color: black;
+
+}
+.light button{
+    background-color: bisque;
+    color: black;
+}
+.light i.fa{
+    color: black;
+}
+.navg{
+    height: 55px;
+    background-color: rgb(7, 7, 7);
+    color: #aaa2a2;
+    
+}
+
+.navTitle {
+    font-size: 20px;
+    line-height: 10px;
+    float: left;
+}
+
+.navManoItem {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #ddd6d6af;
+    margin: 0 30px;
+
+}
+
+.navManoItem:hover {
+    color: #ddd6d6;
+}
+
+.navMenu {
+    float: left;
+    padding-left: 137px;
+    cursor: pointer;
+    
+
+
+}
+
+body {
+
+    background-color: rgb(31, 29, 29);
+    color: black;
+
+}
+
+.light-mode {
+    background: #c5bebe;
+    color: #070707;
+    
+}
+
+.mood {
+    background-color: #f8f5f5;
+    margin-top: 14px;
+    float: right;
+    margin-right: 10px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    border: #534949;
+
+}
+.light-mode .table {
+    border-color: #584e4e;
+    background-color: #b6acac;
+    color: #0a0a0a;
+
+}
+.light-mode .navManoItem{
+    color: #534949;
+}
+.light-mode .navManoItem:hover{
+    color: #030303;
+}
+    
+
+.light-mode.navg {
+    background-color: rgba(206, 209, 212, 0.842);
+    
+    
+    
+}
+
+.light-mode.next {
+    background-color: #b11414;
+}
+.light-mode.mood {
+    background-color: #070707;
+}
+.light-mode.in {
+    background-color: #070707;
+}
